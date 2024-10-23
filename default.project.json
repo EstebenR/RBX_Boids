@@ -1,0 +1,49 @@
+{
+  "name": "Place1",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Shared": {
+        "$path": "src/shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "src/server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "src/client"
+        }
+      }
+    },
+
+    "ReplicatedFirst":{
+      "Scripts":{
+        "$path":"src/repFirst"
+      }
+    },
+
+    "ServerStorage":{
+      "Scripts":{
+        "$path":"src/storage"
+      }
+    },
+
+    "Workspace": {
+      "$properties": {
+        "FilteringEnabled": true
+      }
+    },
+    "SoundService": {
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    }
+  }
+}
